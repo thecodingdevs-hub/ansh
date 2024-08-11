@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #66bb6a;
+    color: #fff;
+    padding: 2rem; /* Using rem for better responsiveness */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem; /* Using gap for spacing */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #333;
+}
+
+section {
+    padding: 4rem;
+    max-width: 600px;
+    margin: 0 auto; /* Center the section horizontally */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact p {
+    line-height: 1.5; /* Increase line spacing for better readability */
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #66bb6a;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #4d947a;
+}
+
